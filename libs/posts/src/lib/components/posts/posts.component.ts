@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
+import * as PostActions from '../../store/action';
 
 @Component({
   selector: 'testing-ngrx-posts',
@@ -6,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./posts.component.scss'],
 })
 export class PostsComponent implements OnInit {
-  constructor() {}
+  constructor(private store: Store) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.store.dispatch(PostActions.getPosts());
+  }
 }

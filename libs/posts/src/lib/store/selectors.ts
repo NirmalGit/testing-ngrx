@@ -1,0 +1,1 @@
+export const getstate = createFeatureSelector<any>('selector');
