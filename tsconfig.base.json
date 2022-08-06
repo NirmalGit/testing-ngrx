@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@testing-ngrx/auth": ["libs/auth/src/index.ts"],
       "@testing-ngrx/posts": ["libs/posts/src/index.ts"]
     }
   },
