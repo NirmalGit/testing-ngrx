@@ -2,7 +2,6 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "auth": "libs/auth",
     "customer-portal": "apps/customer-portal",
     "customer-portal-e2e": "apps/customer-portal-e2e",
     "ngrx-app": "apps/ngrx-app",
