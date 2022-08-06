@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "ngrx-app": "apps/ngrx-app",
-    "ngrx-app-e2e": "apps/ngrx-app-e2e"
+    "ngrx-app-e2e": "apps/ngrx-app-e2e",
+    "posts": "libs/posts"
   }
 }
