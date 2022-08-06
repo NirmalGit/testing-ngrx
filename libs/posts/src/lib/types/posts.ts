@@ -1,2 +1,4 @@
-export interface Posts {
+export interface IPosts {
+  id: string;
+  title: string;
 }
